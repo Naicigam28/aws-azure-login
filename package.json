@@ -29,6 +29,7 @@
     "test": "yarn eslint && yarn prettier:check"
   },
   "dependencies": {
+    "@types/puppeteer": "^7.0.4",
     "aws-sdk": "^2.1120.0",
     "bluebird": "^3.7.2",
     "cheerio": "^1.0.0-rc.10",
@@ -39,7 +40,7 @@
     "lodash": "^4.17.20",
     "mkdirp": "^1.0.4",
     "proxy-agent": "^5.0.0",
-    "puppeteer": "^13.6.0",
+    "puppeteer": "^20.7.3",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
